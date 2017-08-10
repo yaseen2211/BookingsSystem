@@ -1,0 +1,33 @@
+- draw.io online tool
+	- make er diagram as you progress
+
+- cleaner model
+	- add validations   
+		- first_name, last_name, quality_score   (required)         Done
+		- quality_score range to be in (0-5)
+
+- customer model
+	- add validations
+		- first_name, last_name (required)                          Done
+
+- add cities
+	- I should be able to find all the available cities.
+	- I should be able to find the cleaners belonging to a particular city.
+	- I should be able to find the cities in which cleaner work.
+
+- On customer creation
+	- if customer is already present then don't create a new one but to use that existing customer (use phone number as unique thing)
+	- ask for his city
+	- ask for date
+	- ask for time
+	- schedule a booking if cleaner is available (cleaner must be present in given city and given date and time) and show the name of cleaner he has booked.
+	- if cleaner is not available in this slot, then notify that cleaner is not available
+
+- I should be able to see all the bookings of a customer (old, new)
+- I should be able to see all the booking of a cleaner (old,new)
+
+Deadline:
+15hrs
+
+
+
